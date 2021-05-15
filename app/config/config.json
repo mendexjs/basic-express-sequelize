@@ -1,0 +1,15 @@
+{
+  "development": {
+    "username": "root",
+    "password": "#Mysql@Root0605",
+    "database": "liga_mendex",
+    "host": "localhost",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
