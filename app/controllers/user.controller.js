@@ -1,5 +1,5 @@
 const db = require("../models");
-const Tutorial = db.users;
+const User = db.users;
 const Op = db.Sequelize.Op;
 
 // Create and Save a new User
@@ -20,7 +20,7 @@ exports.create = (req, res) => {
     role: req.body.role,
   };
 
-  // Save Tutorial in the database
+  // Save User in the database
   User.create(user)
     .then(data => {
       res.send(data);
